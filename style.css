@@ -6,7 +6,7 @@
 }
 
 :root {
-  --hue: 200;
+  --hue: 190;
   --primary-color: hsl(228, 90%, 27%);
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
@@ -68,6 +68,8 @@ section header h4 {
   font-size: 1.4rem;
   letter-spacing: 0.08rem;
   color: var(--primary-color);
+  font-weight: 700;		
+  line-height: 150%;
 
   text-transform: uppercase;
 
@@ -178,7 +180,7 @@ nav .wrapper {
 }
 
 nav.scroll {
-  background: var(--primary-color);
+  background: #D7DCFF;
 }
 
 nav button {
@@ -321,7 +323,7 @@ body.menu-expanded button path {
 }
 
 #home img {
-  width: 26.4rem;
+  width: 27.4rem;
   display: block;
   margin-inline: auto;
   object-position: 0 2rem;
@@ -422,7 +424,7 @@ body.menu-expanded button path {
 
 /*=== FOOTER =================================*/
 footer {
-  background-color: var(--primary-color);
+  background-color: var(--brand-light);
   padding-block: 6rem;
 
   text-align: left;
@@ -445,7 +447,7 @@ footer .logo path {
 }
 
 footer p {
-  color: var(--brand-beige);
+  color: var(--primary-color);
   line-height: 2;
 
   margin-bottom: 3.2rem;
@@ -568,13 +570,13 @@ footer .social-links {
   }
 
   nav#navigation.scroll .menu ul li a {
-    color: var(--brand-light-2);
+    color: var(--primary-color);
     opacity: 0.6;
   }
 
   nav#navigation.scroll .menu a.button {
-    border-color: white;
-    color: white;
+    border-color: var(--primary-color);
+    color: green;
   }
 
   nav#navigation .menu li a {

@@ -1,7 +1,7 @@
 window.addEventListener('scroll', onScroll)
 
-const navigation = document.getElementById('navigation')
 onScroll()
+const navigation = document.getElementById('navigation')
 function onScroll() {
   showNavOnScroll()
   showBackToTopButtonOnScroll()

@@ -389,7 +389,7 @@ body.menu-expanded button path {
 #services .cards img {
   align-items: center;
   transition: 300ms;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 #services .card {

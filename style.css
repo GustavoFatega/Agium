@@ -662,10 +662,10 @@ footer .social-links {
   }
 
   #home .col-b img {
-    width: 140%;
+    width: 130%;
     position: absolute;
-    right: -13rem;
-    bottom: -11rem;
+    right: -9rem;
+    bottom: -13rem;
   }
 
   #home h1 {

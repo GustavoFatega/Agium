@@ -1,5 +1,6 @@
 window.addEventListener('scroll', onScroll)
 
+const navigation = document.getElementById('navigation')
 onScroll()
 function onScroll() {
   showNavOnScroll()
